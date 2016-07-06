@@ -1,0 +1,28 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="app-avatar.html">
+
+<dom-module id="app-user">
+  <template>
+    <content></content>
+    
+    <h2>{{ name }}</h2>
+    <br />
+    <img src="{{ image }}.png" />
+  </template>
+  
+  <script>
+    Polymer({
+      is: 'app-user',
+      properties: {
+      	name: {
+          type: String,
+          value: 'Front in Sampa'
+        },
+        image: {
+          type: String,
+          value: 'frontinsampa'
+        }
+      }
+    });
+  </script>
+</dom-module>

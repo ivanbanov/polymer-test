@@ -1,0 +1,18 @@
+{
+  "name": "styleguide-concepts",
+  "authors": [
+    "Ivan Banov <ivanbanov@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "platform": "Polymer/platform#^0.4.2",
+    "polymer": "Polymer/polymer#^1.6.0"
+  }
+}
